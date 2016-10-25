@@ -8,6 +8,7 @@ header{
     box-sizing: border-box;
     top:0;
     border-bottom: 1px solid #bababa;
+    background: #f8f8f8;
 }
 header span:first-child{
     display: block;
