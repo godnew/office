@@ -1,0 +1,27 @@
+body{
+    background: #f8f8f8;
+}
+form{
+    padding:0 0.24rem;
+}
+input{
+    border-radius: 0.3rem;
+    width: 100%;
+    border:1px solid #eee;
+    height: 0.58rem;
+    line-height: 0.58rem;
+    font-size: 0.3rem;
+    margin-top: 0.38rem;
+    color:#333;
+    padding-left: 0.4rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+p{
+    font-size: 0.3rem;
+    color: #666666;
+    line-height: 0.55rem;
+    margin-top: 0.25rem;
+    padding:0 0.24rem;
+}

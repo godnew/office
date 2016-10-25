@@ -1,0 +1,30 @@
+header{
+    padding:0 0.24rem;
+    height: 0.88rem;
+    width: 100%;
+    position: fixed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    top:0;
+    border-bottom: 1px solid #bababa;
+}
+header span:first-child{
+    display: block;
+    width: 0.18rem;
+    height: 0.32rem;
+    background: url(../images/back.png) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+header span:nth-of-type(2){
+    font-size: 0.34rem;
+    color:#333;
+}
+header span:last-child{
+    font-size: 0.3rem;
+    color:#3399cc;
+}
+body{
+    padding-top: 0.88rem;
+}
