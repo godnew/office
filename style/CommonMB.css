@@ -63,6 +63,7 @@ div.dib{*display:inline; *zoom:1;}/* other block level tag(eg. p, li, h1~h6), us
 .ml15{margin-left:.15rem;}
 .ml20{margin-left:.20rem;}
 .ml30{margin-left:.30rem;}
+.ml35{margin-left: .35rem;}
 .mr1{margin-right:.01rem;}
 .mr2{margin-right:.02rem;}
 .mr5{margin-right:.05rem;}
@@ -199,6 +200,7 @@ div.dib{*display:inline; *zoom:1;}/* other block level tag(eg. p, li, h1~h6), us
 .lh24{line-height:.24rem;}
 .lh30{line-height:.30rem;}
 .lh40{line-height: 0.4rem;}
+.lh50{line-height: 0.5rem;}
 .lh80{line-height: 0.8rem;}
 .lh100{line-height: 1.00rem;}
 /* font-family */
@@ -345,3 +347,7 @@ div.dib{*display:inline; *zoom:1;}/* other block level tag(eg. p, li, h1~h6), us
 .fx5 {flex: 5;}
 .fx6 {flex: 6;}
 /**/
+
+.factive{
+    color:#3399ee;
+}

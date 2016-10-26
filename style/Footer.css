@@ -1,0 +1,19 @@
+footer{
+    position: fixed;
+    width: 100%;
+    background: #f7f7f7;
+    bottom:0;
+    height: 0.95rem;
+    border-top: 2px solid #bababa;
+}
+footer ul li img{
+    margin-top: 0.15rem;
+}
+footer ul li p{
+    font-size: 0.22rem;
+    margin-top: 0.06rem;
+    color: #666;
+}
+body{
+    padding-bottom: 0.97rem;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1 ,user-scalable=0">
+    <title>动态</title>
+    <link rel="stylesheet" href="style/Reset.css">
+    <link rel="stylesheet" href="style/CommonMB.css">
+    <link rel="stylesheet" href="style/Header.css">
+    <link rel="stylesheet" href="style/dynamic.css">
+    <link rel="stylesheet" href="style/Footer.css">
+    <script src="js/common.js"></script>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+<header class="df aic jcsb">
+    <span></span>
+    <span>动态</span>
+    <span></span>
+</header>
+<div id="banner">
+    <h1 class="n f34 wh">古天乐</h1>
+    <img src="images/dynamic/head.png" alt="">
+</div>
+<ul id="content">
+    <li>
+        <div class="df jcsb first aic mt30">
+            <div class="df aic">
+                <img src="images/dynamic/friend.png" alt="">
+                <div class="df fdc ml35">
+                    <p class="f34 g3">阿拉蕾</p>
+                    <p class="f26 g6 mt20">2016/10/12 10:41</p>
+                </div>
+            </div>
+            <span class="eve"></span>
+        </div>
+        <p class="mt20"><img src="images/dynamic/message.png" alt="" style="display:inline-block;width: 0.45rem;height: 0.45rem;margin-right: 0.3rem;vertical-align: middle;background: #fff;">#公告#阿拉蕾发布了公告《工作调查》</p>
+        <div class="df jcfe second">
+            <div>12</div>
+            <div>6</div>
+        </div>
+    </li>
+    <li>
+        <div class="df jcsb first aic mt30">
+            <div class="df aic">
+                <img src="images/dynamic/friend.png" alt="">
+                <div class="df fdc ml35">
+                    <p class="f34 g3">阿拉蕾</p>
+                    <p class="f26 g6 mt20">2016/10/12 10:41</p>
+                </div>
+            </div>
+            <span class="eve"></span>
+        </div>
+        <p class="mt20">好快乐的一天，很充实的一天。</p>
+        <div class="df jcfe second">
+            <div>12</div>
+            <div>6</div>
+        </div>
+    </li>
+</ul>
+<footer>
+    <ul class="df jcsb pl24 pr24">
+        <li>
+            <img src="images/f11.png" style="width: 0.38rem;height: 0.44rem;" alt="">
+            <p>应用</p>
+        </li>
+        <li>
+            <img src="images/f12.png" style="width: 0.42rem;height: 0.44rem;" alt="">
+            <p>交流</p>
+        </li>
+        <li>
+            <img src="images/f13.png" style="width: 0.44rem;height: 0.44rem;" alt="">
+            <p>工作</p>
+        </li>
+        <li>
+            <img src="images/f24.png" style="width:0.48rem;height: 0.44rem;" alt="">
+            <p class="factive">动态</p>
+        </li>
+        <li>
+            <img src="images/f15.png" style="width: 0.4rem;height: 0.44rem;" alt="">
+            <p>我的</p>
+        </li>
+    </ul>
+</footer>
+<div id="bg" style="display: none;"></div>
+<script>
+    $(function(){
+       $("#content").on("click",".eve",function(){
+            $("body").append('<ul class="window"><li class="one">会话</li><li class="two">打电话</li><li class="three">发邮件</li><li class="four">取消</li></ul>');
+           $("#bg").show();
+       });
+        $("#bg").click(function(){
+            $(this).hide();
+            $(".window").remove();
+        });
+        $("body").on("click",".four",function(){
+            $("#bg").hide();
+            $(".window").remove();
+        });
+    });
+</script>
+</body>
+</html>
