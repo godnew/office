@@ -1,0 +1,56 @@
+body{
+    background: #eee;
+}
+form{
+    padding:0 0.24rem;
+}
+textarea{
+    margin-top: 0.4rem;
+    display: block;
+    width: 100%;
+    border:none;
+    border-radius: 0.1rem;
+    resize: none;
+    height: 4.9rem;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding:0.4rem 0.6rem;
+    font-size: 0.3rem;
+    color:#999;
+}
+footer{
+    height: 1rem;
+    border-top: 1px solid #bababa;
+    position: fixed;
+    bottom:0;
+    width: 100%;
+    background:#fff;
+}
+#footer{
+    height: 1rem;
+}
+#footer li:first-child{
+    width:0.46rem;
+    height: 0.4rem;
+    background: url(../images/newdynamic/photo.png) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+    margin-left: 0.58rem;
+}
+#footer li:nth-of-type(2){
+    width:0.44rem;
+    height: 0.46rem;
+    background: url(../images/newdynamic/add.png) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+    margin-left:0.9rem;
+}
+#footer li:nth-of-type(3){
+    width:0.28rem;
+    height: 0.38rem;
+    background: url(../images/newdynamic/point.png) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+    margin-left: 1rem;
+}

@@ -1,0 +1,51 @@
+form{
+    padding:0.2rem 0.24rem;
+}
+form input{
+    display: block;
+    line-height: 0.5rem;
+    width: 100%;
+    text-align: center;
+    background: #eee url(../images/event/search.png) no-repeat 2.9rem  center;
+    -webkit-background-size:0.28rem 0.28rem;
+    background-size:0.28rem 0.28rem;
+    border-radius: 0.15rem;
+    font-size: 0.3rem;
+    color:#999;
+}
+h1{
+    line-height: 0.7rem;
+    padding-left: 0.24rem;
+    background: #f8f8f8;
+    font-size:0.34rem;
+}
+.recent{
+    background: #fff;
+}
+.recent li{
+    padding-left: 1.5rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    font-size: 0.3rem;
+    color:#333;
+    background: url(../images/event/connect.png) no-repeat 0.24rem center;
+    background-size: 0.37rem 0.37rem;
+    border-bottom:1px solid #eee;
+}
+.hot li{
+    padding-left: 1.5rem;
+    height: 0.9rem;
+    background: url(../images/event/ff.png) no-repeat 0.24rem center;
+    background-size: 0.36rem 0.36rem;
+    border-bottom:1px solid #eee;
+}
+.hot li p:first-child{
+    font-size: 0.3rem;
+    color:#333;
+    margin-top:0.1rem;
+}
+.hot li p:last-child{
+    font-size:0.24rem;
+    color:#666;
+    margin-top: 0.05rem;
+}
