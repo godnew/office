@@ -1,0 +1,105 @@
+header{
+    padding:0 0.24rem;
+    height: 0.88rem;
+    width: 100%;
+    position: fixed;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    top:0;
+    border-bottom: 1px solid #bababa;
+    background: #f8f8f8;
+}
+header ul li{
+    width:1.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border:2px solid #3399ee;
+    color:#3399ee;
+    text-align: center;
+    font-size: 0.3rem;
+}
+header ul li:first-child{
+    border-right:none;
+    border-bottom-left-radius: 0.1rem;
+    -moz-border-radius-bottomleft: 0.1rem;
+    -webkit-border-bottom-left-radius: 0.1rem;
+    border-top-left-radius: 0.1rem;
+    -moz-border-radius-topleft: 0.1rem;
+    -webkit-border-top-left-radius: 0.1rem;
+}
+header ul li:last-child{
+    border-left:none;
+    border-bottom-right-radius: 0.1rem;
+    -moz-border-radius-bottomright: 0.1rem;
+    -webkit-border-bottom-right-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+    -moz-border-radius-topright: 0.1rem;
+    -webkit-border-top-right-radius: 0.1rem;
+}
+.hactive{
+    color:#fff;
+    background: #3399ee;
+}
+header div:last-child{
+    width: 0.4rem;
+    height: 0.4rem;
+    background: url(../images/work/add.png) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.company{
+    font-size: 0.3rem;
+    color:#333;
+    line-height: 0.8rem;
+    padding-left: 0.24rem;
+    border-bottom: 1px solid #3399cc;
+}
+body{
+    padding-top:0.88rem;
+}
+.content>li h1{
+    padding-left:0.24rem;
+    font-size: 0.34rem;
+    color:#333;
+    line-height: 0.9rem;
+    border-bottom: 1px solid #eee;
+}
+.down{
+    background: url(../images/work/down.png) no-repeat 2rem center;
+    -webkit-background-size:0.3rem 0.15rem;
+    background-size:0.3rem 0.15rem;
+}
+.up{
+    background: url(../images/work/up.png) no-repeat 2rem center;
+    -webkit-background-size:0.3rem 0.15rem;
+    background-size:0.3rem 0.15rem;
+}
+.content1{
+    background: #f8f8f8;
+}
+.content1 li{
+    height: 0.9rem;
+    margin-left: 0.4rem;
+    padding-left: 1rem;
+    padding-right:0.24rem;
+    border-bottom: 1px solid #eee;
+    -webkit-background-size:0.6rem 0.6rem!important;
+    background-size:0.6rem 0.6rem!important;
+}
+.content1 li span:first-child{
+    display: inline-block;
+    font-size: 0.3rem;
+    color:#333;
+}
+.content1 li span:last-child{
+    display:inline-block ;
+    font-size: 0.26rem;
+    height: 0.35rem;
+    line-height: 0.35rem;
+    color:#3399ee;
+    padding-left: 0.4rem;
+    background: url(../images/organize/phone.png) no-repeat left center;
+    -webkit-background-size:0.3rem 0.28rem;
+    background-size:0.3rem 0.28rem;
+}
