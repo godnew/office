@@ -9,6 +9,7 @@ header{
     top:0;
     border-bottom: 1px solid #bababa;
     background: #f8f8f8;
+    z-index: 999;
 }
 header span:first-child{
     display: block;

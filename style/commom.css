@@ -1,0 +1,116 @@
+body{
+    background: #eee;
+    padding-bottom: 1.5rem;
+
+}
+header span:first-child{
+    width: 0.55rem;
+    display: inline-block;
+    vertical-align:bottom;
+    height: 0.2rem;
+    padding-top:0.46rem;
+    font-size: 0.18rem;
+    color:#3399cc;
+    background: url(../images/work/scan.png) no-repeat center top;
+    -webkit-background-size:0.4rem 0.38rem;
+    background-size:0.4rem 0.38rem;
+}
+header span:last-child{
+    /*display:table-cell;*/
+    vertical-align:bottom;
+    display: inline-block;
+    width: 0.4rem;
+    height: 0.2rem;
+    padding-top:0.46rem;
+    font-size: 0.18rem;
+    color:#3399cc;
+    background: url(../images/work/wait.png) no-repeat center top;
+    -webkit-background-size:0.32rem 0.38rem;
+    background-size:0.32rem 0.38rem;
+}
+header ul li{
+    width:1.4rem;
+    height: 0.4rem;
+    line-height: 0.4rem;
+    border:2px solid #3399ee;
+    color:#3399ee;
+    text-align: center;
+    font-size: 0.3rem;
+}
+header ul li:first-child{
+    border-right:none;
+    border-bottom-left-radius: 0.1rem;
+    -moz-border-radius-bottomleft: 0.1rem;
+    -webkit-border-bottom-left-radius: 0.1rem;
+    border-top-left-radius: 0.1rem;
+    -moz-border-radius-topleft: 0.1rem;
+    -webkit-border-top-left-radius: 0.1rem;
+}
+header ul li:last-child{
+    border-left:none;
+    border-bottom-right-radius: 0.1rem;
+    -moz-border-radius-bottomright: 0.1rem;
+    -webkit-border-bottom-right-radius: 0.1rem;
+    border-top-right-radius: 0.1rem;
+    -moz-border-radius-topright: 0.1rem;
+    -webkit-border-top-right-radius: 0.1rem;
+}
+.hactive{
+    color:#fff;
+    background: #3399ee;
+}
+form{
+    padding:0.2rem 0.24rem;
+    background: #fff;
+}
+form input{
+    display: block;
+    line-height: 0.5rem;
+    width: 100%;
+    text-align: center;
+    background: #eee url(../images/event/search.png) no-repeat 2.9rem  center;
+    -webkit-background-size:0.28rem 0.28rem;
+    background-size:0.28rem 0.28rem;
+    border-radius: 0.15rem;
+    font-size: 0.3rem;
+    color:#999;
+}
+.content{
+    background: #fff;
+    margin-top: 0.3rem;
+}
+.content > div{
+    width: 1.8rem;
+    height: 2.8rem;
+}
+.content > div p{
+    margin-top: 2rem;
+}
+.content ul{
+    height: 2.8rem;
+}
+.content ul li{
+    width: 25%;
+    height: 50%;
+    border-left:1px solid #eee;
+    border-bottom:1px solid #eee;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content ul li p{
+    margin-top: 0.95rem;
+}
+.setting{
+    width: 5.6rem;
+    height:0.7rem;
+    border:1px solid #3399ee;
+    color:#3399ee;
+    text-align: center;
+    margin: auto;
+    line-height:0.7rem;
+    margin-top:0.6rem;
+    border-radius:0.2rem;
+    font-size:0.34rem;
+    background: #f7f7f7;
+}
