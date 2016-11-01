@@ -2,9 +2,118 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1 ,user-scalable=0">
+    <title>动态</title>
+    <link rel="stylesheet" href="style/Reset.css">
+    <link rel="stylesheet" href="style/CommonMB.css">
+    <link rel="stylesheet" href="style/Header.css">
+    <link rel="stylesheet" href="style/navSetting.css">
+    <script src="js/common.js"></script>
+    <script src="js/jquery.min.js"></script>
 </head>
 <body>
-
+<header class="df aic jcsb">
+    <span></span>
+    <span>导航设置</span>
+    <span></span>
+</header>
+<form action="">
+    <ul>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">CRM</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">采购</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">库存</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">销售</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">财务</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">行政办公</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">人力资源</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">决策中心</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">行业应用</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">个人应用</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">系统管理</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">应用商店</span>
+        </li>
+        <li class="df aic">
+            <div>
+                <input type="checkbox">
+            </div>
+            <span class="f34 g3">即可开发</span>
+        </li>
+    </ul>
+</form>
+<script>
+    $("input").each(function(){
+        if($(this).is(":checked")){
+            $(this).parents("li").addClass("active");
+        }else{
+            $(this).parents("li").removeClass("active");
+        }
+    });
+    $("input").click(function(){
+        if($(this).is(":checked")){
+            $(this).parents("li").addClass("active");
+        }else{
+            $(this).parents("li").removeClass("active");
+        }
+    });
+</script>
 </body>
 </html>
