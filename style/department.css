@@ -1,4 +1,3 @@
-
 body{
     background: #EEE;
 }
@@ -29,4 +28,22 @@ form input{
 #content li img{
     width: 0.62rem;
     height: 0.62rem;
+}
+#bg{
+    width:100%;
+    height:100%;
+    position: fixed;
+    top:0;
+    left:0;
+    background:rgba(0,0,0,0.5);
+}
+#pop{
+    position: absolute;
+    top:1.3rem;
+    left:0;
+    width:100%;
+}
+#pop img{
+    width: 1.4rem;
+    height: 1.4rem;
 }

@@ -15,7 +15,7 @@
 <header class="df aic jcsb">
     <span></span>
     <span>&nbsp;&nbsp;&nbsp;帮助中心</span>
-    <span>他人足迹</span>
+    <span id="foot">他人足迹</span>
 </header>
 <form action="">
     <input type="text" placeholder="搜索">
@@ -58,5 +58,30 @@
         <span class="f30 g3">（技术部）</span>
     </li>
 </ul>
+<div id="bg" style="display: none;"></div>
+<ul id="pop" class="df jcsa" style="display: none;">
+    <li>
+        <img src="images/department/all.png" alt="">
+        <p class="tc f34 wh mt40">全体足迹</p>
+    </li>
+    <li>
+        <img src="images/department/department.png" alt="">
+        <p class="tc f34 wh mt40">部门足迹</p>
+    </li>
+    <li>
+        <img src="images/department/personal.png" alt="">
+        <p class="tc f34 wh mt40">个人足迹</p>
+    </li>
+</ul>
+<script>
+    $("#foot").click(function(){
+        $("#bg").toggle();
+        $("#pop").toggle();
+    });
+    $("#bg").click(function(){
+        $(this).hide();
+        $("#pop").hide();
+    });
+</script>
 </body>
 </html>
