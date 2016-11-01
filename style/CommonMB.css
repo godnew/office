@@ -142,6 +142,7 @@ div.dib{*display:inline; *zoom:1;}/* other block level tag(eg. p, li, h1~h6), us
 .pb30{padding-bottom:.30rem;}
 .pl24{padding-left: .24rem}
 .pr24{padding-right: .24rem;}
+.pl50{padding-left: 0.5rem;}
 /* border-color name rule: border(b)-position(l/r/t/b/d)-width(null/2)-style(null/sh)-color(first one letter/first two letter) |-> All colors are safe color*/
 .bdc{border:0.01rem solid #ccc;}
 .blc{border-left:0.01rem solid #ccc;}

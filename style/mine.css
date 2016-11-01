@@ -1,0 +1,27 @@
+body{
+    background: #eee;
+}
+.head{
+    background:#fff url(../images/right.png) no-repeat 7.1rem center;
+    -webkit-background-size:0.18rem 0.32rem;
+    background-size:0.18rem 0.32rem;
+    height: 1.5rem;
+    margin-top: 0.3rem;
+    padding-right:0.65rem;
+}
+.add{
+    background:#fff url(../images/right.png) no-repeat 7.1rem center;
+    -webkit-background-size:0.18rem 0.32rem;
+    background-size:0.18rem 0.32rem;
+    height:1.3rem;
+}
+.content{
+    background: #fff;
+}
+.content li{
+    height: 0.9rem;
+    border-bottom:1px solid #eee;
+    background: url(../images/right.png) no-repeat 6.86rem center;
+    -webkit-background-size:0.18rem 0.32rem;
+    background-size:0.18rem 0.32rem;
+}
