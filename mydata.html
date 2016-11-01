@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1 ,user-scalable=0">
+    <title>动态</title>
+    <link rel="stylesheet" href="style/Reset.css">
+    <link rel="stylesheet" href="style/CommonMB.css">
+    <link rel="stylesheet" href="style/Header.css">
+    <link rel="stylesheet" href="style/mydata.css">
+    <script src="js/common.js"></script>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+<header class="df aic jcsb">
+    <span></span>
+    <span>我的资料</span>
+    <span>保存</span>
+</header>
+<h1 class="df aic"><img src="images/mydata/head.png" alt="" style="width:1rem;height: 1rem;"><input type="file" accept="image/*" /></h1>
+<ul id="content">
+    <li class="df jcsb aic pr24 bte"><label for="">昵称</label><input type="text" readonly value="小南瓜"></li>
+    <li class="df jcsb aic pr24 bte"><label for="">姓名</label><input type="text" readonly value="古天乐"></li>
+    <li class="df jcsb aic pr24 bte sex"><label for="">性别</label><input type="text" readonly value="男"></li>
+    <li class="df jcsb aic pr24 bte"><label for="">生日</label><input type="text" readonly value="1993/12/07"></li>
+    <li class="df jcsb aic pr24 bte"><label for="">部门</label><input type="text" readonly value="董事会"></li>
+    <li class="df jcsb aic pr24 bte"><label for="">角色</label><input type="text" readonly value="管理者"></li>
+    <li class="df jcsb aic pr24 bte"><label for="">手机</label><input type="text" readonly value="18118122522"></li>
+    <li class="df jcsb aic pr24 bte"><label for="">邮箱</label><input type="text" readonly value="123@qq.com"></li>
+    <li class="df jcsb aic pr24 bte"><label for="">办公电话</label><input type="text" readonly value="0512-63830732"></li>
+    <li class="df jcsb aic pr24 bte"><label for="">个性签名</label><input type="text" readonly value="设计师，设计"></li>
+</ul>
+<div id="bg" style="display: none;"></div>
+<ul id="pop" style="display: none;">
+    <li class="bbe g3">性别</li>
+    <li class="bbe factive">男</li>
+    <li class="bbe factive">女</li>
+    <li class="g9" class="cancel">取消</li>
+</ul>
+<script>
+    $(".sex").click(function(){
+        $("#bg").toggle();
+        $("#pop").toggle();
+    });
+    $("#bg").click(function(){
+        $("#bg").hide();
+        $("#pop").hide();
+    });
+</script>
+</body>
+</html>
