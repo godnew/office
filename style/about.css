@@ -1,0 +1,16 @@
+#banner{
+    width:3.65rem;
+    height: 1.54rem;
+    margin:auto;
+    background:url(../images/banner.png) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+    margin-top: 1.4rem;
+}
+.article{
+    margin-top: 0.8rem;
+    font-size: 0.3rem;
+    color:#333;
+    text-indent: 0.6rem;
+    line-height: 0.5rem;
+}
