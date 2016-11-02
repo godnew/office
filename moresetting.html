@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1 ,user-scalable=0">
+    <title>动态</title>
+    <link rel="stylesheet" href="style/Reset.css">
+    <link rel="stylesheet" href="style/CommonMB.css">
+    <link rel="stylesheet" href="style/Header.css">
+    <link rel="stylesheet" href="style/moresetting.css">
+    <script src="js/common.js"></script>
+    <script src="js/jquery.min.js"></script>
+</head>
+<body>
+<header class="df aic jcsb">
+    <span></span>
+    <span>更多设置</span>
+    <span></span>
+</header>
+<ul id="content" class="mt30">
+    <li><div>导航设置</div></li>
+    <li class="mt30"><div>修改密码</div></li>
+    <li class="cancel"><div class="bte">解除业务绑定</div></li>
+    <li class="mt30"><div>清除缓存</div></li>
+    <li class="mt30"><div>关于</div></li>
+</ul>
+<div id="out">注销</div>
+<p class="tc factive f30" style="margin-top: 0.6rem;">您的当前身份：管理者</p>
+<div id="bg" style="display: none;"></div>
+<div id="pop" style="display: none;">
+    <h1 class="n factive tc">温馨提示</h1>
+    <p class="pr30 pl30 f30 g3" style="line-height: 0.5rem;text-indent: 0.6rem">    您确定要解除企业绑定吗？解除绑定后企业将不能再使用，若要回复企业，请联系我们！</p>
+    <div class="df bte mt30"><span class="fx1 bre f34 g6 tc sure">确定</span><span class="fx1 f34 factive tc del">取消</span></div>
+</div>
+<div id="pop1" style="display: none;">
+    <h1 class="n factive tc">再次提醒</h1>
+    <p class="pr30 pl30 f30 g3 tc" style="line-height: 0.5rem;">您真的确定要解除企业绑定吗？</p>
+    <div class="df bte" style="margin-top: 0.5rem;"><span class="fx1 bre f34 g6 tc">确定</span><span class="fx1 f34 factive tc del">取消</span></div>
+</div>
+<script>
+    $(".cancel").click(function(){
+        $("#bg").show();
+        $("#pop").show();
+    });
+    $(".del").click(function(){
+        $("#bg").hide();
+        $("#pop").hide();
+        $("#pop1").hide();
+    });
+    $(".sure").click(function(){
+        $("#pop1").show();
+        $("#pop").hide();
+    });
+    $("#bg").click(function(){
+        $("#bg").hide();
+        $("#pop").hide();
+        $("#pop1").hide();
+
+    });
+</script>
+</body>
+</html>
