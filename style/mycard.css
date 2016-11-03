@@ -1,0 +1,36 @@
+#banner{
+    width:100%;
+    padding-top:0.25rem;
+    height: 2.75rem;
+    background:url(../images/mycard/bg.png) no-repeat center center;
+    -webkit-background-size:cover;
+    background-size:cover;
+    position:relative;
+}
+.head{
+    width:1.44rem;
+    height: 1.44rem;
+    margin:auto;
+}
+#barcode{
+    width:0.38rem;
+    height: 0.38rem;
+    position: absolute;
+    right:0.24rem;
+    bottom:0.3rem;
+}
+.h1{
+    height:0.6rem;
+    line-height:0.6rem;
+    font-size: 0.24rem;
+    color:#333;
+    background: #f8f8f8;
+}
+ul{
+    padding-left:0.24rem;
+}
+ul li{
+    height:0.9rem;
+    border-bottom: 1px solid #eee;
+    padding-right:0.24rem;
+}
